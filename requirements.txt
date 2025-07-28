@@ -1,0 +1,3 @@
+PyQt5>=5.15      # or PySide6>=6.5
+pyqtgraph>=0.13
+pylsl>=1.16
