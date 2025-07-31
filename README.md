@@ -72,8 +72,30 @@ Next steps include evaluating the design and usability of the dashboard through 
    - Select all of them and change the participant number and event number on the right.  
    - Files will be saved to: `Documents/currentStudy`
 
-9.  
-   Launch the dashboard:  
+9.
+   a. "Start Drive" on MiniSim
+   b. Launch the dashboard:  
    ```bash
    cd Documents/AudreyRima_work
    python dashboard.py
+
+10.
+   Click on "start recording" and "end recording" at the bottom of the page.
+   Then go the the local directory where the dashboard is used and find a folder called "records".
+   All the data recorded are saved in csv files named **"multistream_YYYYMMDD_TIME"**
+   An example data collected in file **"multistream_20250731_115446"** has first 10 rows that looks like:
+| Time     | Event          |      gx    |      gy    | bpm  | frame |
+|----------|----------------|------------|------------|------|-------|
+| 11:54:46 | Gaze: gx vs gy |  826.6663  |  418.6919  |   12 | 46096 |
+| 11:54:46 | Heart rate     |  826.6663  |  418.6919  |   14 | 46096 |
+| 11:54:46 | Gaze: gx vs gy |  824.3577  |  419.0769  |   14 | 46106 |
+| 11:54:46 | Heart rate     |  824.3577  |  419.0769  |  −21 | 46106 |
+| 11:54:46 | Gaze: gx vs gy |  826.4021  |  416.6495  |  −21 | 46106 |
+| 11:54:46 | Heart rate     |  826.4021  |  416.6495  |  −21 | 46106 |
+| 11:54:46 | Gaze: gx vs gy |  823.3139  |  414.3212  |  −21 | 46106 |
+| 11:54:46 | Heart rate     |  823.3139  |  414.3212  |  −14 | 46106 |
+| 11:54:46 | Gaze: gx vs gy |  823.3759  |  415.2961  |  −14 | 46106 |
+| 11:54:46 | Heart rate     |  823.3759  |  415.2961  |  −26 | 46106 |
+
+   
+   
