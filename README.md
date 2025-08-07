@@ -57,7 +57,6 @@ Next steps include evaluating the design and usability of the dashboard through 
       - `Polar H10 E8988D29 (D-lab)`
 
 ---
-
 ### miniSim Simulator
 
 7.  
