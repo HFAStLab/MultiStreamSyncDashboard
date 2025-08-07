@@ -80,11 +80,11 @@ Next steps include evaluating the design and usability of the dashboard through 
    python dashboard.py
 
 10.
-   Click on "start recording" and "end recording" at the bottom of the page.
+   Click on "start recording" and enter "PXXX" then "SXXX". Then the drive number is option, either enter a number or press "ok" to skip. When the session is over press "end recording" at the bottom right of the page.
    Then go the the local directory where the dashboard is used and find a folder called "records".
-   All the data recorded are saved in csv files named **"multistream_YYYYMMDD_TIME"**
+   All the data recorded are saved in csv files named **"multistream_PXXX_SXXX_DD-MM-YYYY_TIME"**
    An example data collected in file **"multistream_20250731_115446"** has first 10 rows that looks like:
-| Time     | Event          |      gx    |      gy    | bpm  | frame |
+| Time     | Event          |      gx    |      gy    | ECG  | FrameNum |
 |----------|----------------|------------|------------|------|-------|
 | 11:54:46 | Gaze: gx vs gy |  826.6663  |  418.6919  |   12 | 46096 |
 | 11:54:46 | Heart rate     |  826.6663  |  418.6919  |   14 | 46096 |
