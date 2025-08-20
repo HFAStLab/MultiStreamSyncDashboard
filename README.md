@@ -96,5 +96,3 @@ Next steps include evaluating the design and usability of the dashboard through 
 | 11:54:46 | Gaze: gx vs gy |  823.3759  |  415.2961  |  −14 | 46106 |
 | 11:54:46 | Heart rate     |  823.3759  |  415.2961  |  −26 | 46106 |
 
-   
-   
