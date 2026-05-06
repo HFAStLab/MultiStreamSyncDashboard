@@ -35,7 +35,7 @@ Next steps include evaluating the design and usability of the dashboard through 
 
 3. **Set Up Phone Hotspot**  
    a. On the lab Nokia phone, connect to UofT Wi-Fi.  
-   b. Enable the phone’s hotspot (SSID: `moto edge 40 pro_5189`).
+   b. Enable the phone’s hotspot (SSID: `moto edge 40 pro_5189`). This is done by going to the phone's settings.
 
 4. **Connect DLab PC to Hotspot**  
    a. On the DLab computer, open Wi-Fi settings and join `moto edge 40 pro_5189`.
@@ -51,8 +51,8 @@ Next steps include evaluating the design and usability of the dashboard through 
 ### Polar Heart Rate Band
 
 6.  
-   a. Open `PolarGUI.exe` on the DLab computer *after* the participant is wearing the band (snugly). This file was downloaded from: https://github.com/markspan/PolarBand2lsl.
-   b. Click **Search for Device** and wait until `Polar H10 E8988D29` shows up, then click it.  
+   a. Open `PolarGUI.exe` on the DLab computer *after* the participant is wearing the band (snugly). This file was downloaded from: https://github.com/markspan/PolarBand2lsl.  
+   b. Click **Scan for Device** and wait until `Polar H10 E8988D29 (D-lab)` shows up, then click it.  
    c. In LabRecorder, click **Update**. You should now see a green stream:  
       - `Polar H10 E8988D29 (D-lab)`
 
