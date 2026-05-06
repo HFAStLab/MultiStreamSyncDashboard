@@ -51,7 +51,7 @@ Next steps include evaluating the design and usability of the dashboard through 
 ### Polar Heart Rate Band
 
 6.  
-   a. Open `PolarGUI.exe` on the DLab computer *after* the participant is wearing the band (snugly). This file was downloaded from: https://github.com/markspan/PolarBand2lsl. 
+   a. Open `PolarGUI.exe` on the DLab computer *after* the participant is wearing the band (snugly). This file was downloaded from: https://github.com/markspan/PolarBand2lsl.
    b. Click **Search for Device** and wait until `Polar H10 E8988D29` shows up, then click it.  
    c. In LabRecorder, click **Update**. You should now see a green stream:  
       - `Polar H10 E8988D29 (D-lab)`
